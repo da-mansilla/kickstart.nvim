@@ -194,6 +194,7 @@ return {
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
       'pyright', -- Used for Python LSP
+      'bash-language-server', -- Used for Bash LSP
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
